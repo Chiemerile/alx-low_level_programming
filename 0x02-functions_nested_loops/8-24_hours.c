@@ -1,10 +1,12 @@
 #include "main.h"
 /**
- * jack_bauer - the fnx which prints every minute of the day of Jack Bauer from 00:00 to 23:59
+ * jack_bauer - the fnx which prints every minute of the day
+ * of Jack Bauer from 00:00 to 23:59
  */
 void jack_bauer(void)
 {
 	int a, b;
+
 	a = 0;
 	while (a < 24)
 	{
