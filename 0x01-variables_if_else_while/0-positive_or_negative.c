@@ -3,30 +3,30 @@
 #include <stdio.h>
 
 /**
- * main - The program assigns a random number to the variable m
+ * main - The progm assigns a random num to the var n
  * every time it is executed. It checks and print whether
- * the number which is stored in variable m is +tive or -tive.
+ * the number which is stored in variable n is +tive or -tive.
  * Return: 0 (Success)
  */
 
 int main(void)
 {
-	int m;
+	int n;
 
 	srand(time(0));
-	m = rand() - RAND_MAX / 2;
+	n = rand() - RAND_MAX / 2;
 
-	if (m > 0)
+	if (n > 0)
 	{
-		printf("%d is positive\n", m);
+		printf("%d is positive\n", n);
 	}
-	else if (m == 0)
+	else if (n == 0)
 	{
-		printf("%d is zero\n", m);
+		printf("%d is zero\n", n);
 	}
 	else
 	{
-		printf("%d is negative\n", m);
+		printf("%d is negative\n", n);
 	}
 	return (0);
 }
